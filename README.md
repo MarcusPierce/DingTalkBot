@@ -16,4 +16,3 @@
 ## 修改时间间隔
 首先修改 /.github/workflows/DingTalk_misson.yml 文件中的cron表达式，具体语法说明可以参考[官方文档](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events)，如果需要测试可以使用官方提供的测试网站[crontab guru](https://crontab.guru/)  
 然后修改 run.py 文件，将 if ac_time<7200 : 中的7200修改为其他时间间隔数值，请注意单位为秒。
-
